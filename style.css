@@ -65,3 +65,23 @@ img{
 .social-icons i{
     margin-right: 20px;
 }
+
+@media (max-width:991px) {
+    .col-lg-5 img {
+        height: 50%;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius:0px ;
+    }
+
+    .row{
+        height: 100%;
+    }
+
+    .col-lg-5{
+        height: 50%;
+    }
+
+    .login h1{
+        font-size: 3rem;
+    }
+}
